@@ -1,25 +1,19 @@
 {
-  "name": "node-crude-cp4",
-  "version": "1.0.0",
-  "description": "Creative project 4 using NodeJS and MongoDB.",
-  "main": "index.js",
+  "name": "comments",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "start": "node ./bin/www",
+    "dev-start": "nodemon ./bin/www"
   },
-  "author": "Daniel Kindt",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "ejs": "^2.5.7",
-    "express": "^4.16.2",
-    "mongodb": "^2.2.33"
-  },
-  "devDependencies": {
-    "nodemon": "^1.12.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DanielTKindt/node-crude-cp4.git"
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "mongoose": "^4.13.1",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
   }
 }

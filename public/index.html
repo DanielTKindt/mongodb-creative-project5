@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bulk SMS Notifier</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/phonenumbers.js"></script>
+</head>
+
+<body>
+<form id="phoneForm" action="">
+  <label for="name">Name: </label>
+    <input type="text" id="name" placeholder="Name"><br>
+  <label for="phone">Phone Number: </label>
+    <input type="text" id="phonenumber" placeholder="(801) 555-2345"><br>
+</form>
+
+<button id="postPhoneNumber">Add User</button>
+<button id="getPhoneNumbers">Get Users</button>
+<button id="deletePhoneNumbers">Delete All Users</button>
+<div id="json"></div>
+<div id="done"></div>
+<div id="phone"></div>
+</body>
+</html>
+
